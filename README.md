@@ -47,4 +47,9 @@ Attributes X1 to X6 indicate the responses for each question and have values fro
 
 ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/6f9006f1-e544-4aef-85eb-80fc56892f56)
 
-*  
+*  After training the Decision Tree model with optimal hyperparameters on the data, it achieved an accuracy score of 61%. The recall score is 82%, indicating that the model correctly identifies 82% of happy customers but incorrectly labels 18% of them as unhappy. The precision score is 56%, suggesting a relatively high False Positive rate, meaning many unhappy customers are being incorrectly classified as happy. Additionally, through feature importance analysis, it's clear that the X2 feature is the least important.
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/f0370c8d-4d99-4608-a5ea-bcfc89c95131)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/9057e6a2-fa52-4006-a643-776928decd39)
+
+
+
