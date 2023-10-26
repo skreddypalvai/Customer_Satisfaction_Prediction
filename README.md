@@ -14,7 +14,7 @@ We recently did a survey to a select customer cohort. You are presented with a s
 
 * The main objective of this project is to develop a predictive model that determines customer happiness based on the survey data. The dataset includes customer ratings for six different questions, which will be used to identify patterns and factors influencing customer happiness. By analyzing this data, we aim to build a robust model that can accurately predict whether a customer is happy or not ,insights gained from this analysis will enable the company to take actions to improve overall customer satisfaction and enhance operational efficiency.
 
-### Data Description:
+### **Data Description:**
 
 Y = target attribute (Y) with values indicating 0 (unhappy) and 1 (happy) customers
 X1 = my order was delivered on time
@@ -26,3 +26,25 @@ X6 = the app makes ordering easy for me
 
 Attributes X1 to X6 indicate the responses for each question and have values from 1 to 5 where the smaller number indicates less and the higher number indicates more towards the answer.
 
+### **Observations:**
+*  Usually, when customers give high ratings, they are expected to be happy. However, it's important to note that in this dataset, some customers seemed unhappy even though they rated all six questions highly. This is evident in the 3rd and 4th rows. Additionally, there are no null values in the dataset.
+  
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/fb0621b1-3597-4560-be4c-8181baa5be9e) | ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/a63b0558-2b76-470b-886e-2ae8c1b633a3)
+
+*  Looking at the stats below, we notice that satisfied customers mostly gave a rating of 5 for the question "X1-My order was delivered on time". On the other hand, unhappy customers tended to give ratings of 4, 3, or 1 more often than the satisfied ones. It's interesting to see that both satisfied and unsatisfied customers gave nearly equal numbers of ratings (1, 2, 3, 4, and 5) for the "X2-Contents of my order was as I expected".
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/c8440f6c-40ca-4939-a71c-4428f4684fe3)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/04410023-3ada-455a-b9b4-eb4fd0281d8f)
+
+*  We see that happy customers mostly rated question X3 ("I ordered everything I wanted to order") with 4 or 5 ratings, while unhappy customers gave it 1, 2, or 3 ratings. Similarly, for the question X4 ("I paid a good price for my order"), happy customers rated it with 4 or 5 ratings, whereas unhappy customers mainly gave it 2 and 3 ratings.
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/483a0b52-bad6-43d0-a86f-928d617eb918) ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/5b42f696-d940-4c63-8802-6ebac63f5ed5)
+
+*  Happy customers mostly gave 5 ratings for the questions "X5-I am satisfied with my courier" and "X6-The app makes ordering easy for me".
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/177935fa-928a-472e-9125-59672709e866) ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/e0dca73f-d3b4-4abd-807c-501e054184b3)
+
+*  Generally, when the correlation value is closer to +1, it shows a strong positive correlation. Conversely, if it's closer to -1, it suggests a weak negative correlation. Specifically, in this case, features X1, X5, and X3 display a strong positive correlation with the Target, with correlation values of 0.29, 0.21, and 0.18 respectively. However, features X2, X4, and X6 exhibit a weaker correlation with the target class.
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/6f9006f1-e544-4aef-85eb-80fc56892f56)
+
+*  
