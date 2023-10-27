@@ -53,10 +53,11 @@ Attributes X1 to X6 indicate the responses for each question and have values fro
 
 *  By fine-tuning the hyperparameters of the Random Forest Classifier model, it reached an accuracy of 65% and an F1 score of 64%, which is lower than the Decision Tree model. However, there's a notable difference in the feature importance between the Random Forest and Decision Tree models. It is clear that X3 and X1 have high feature importance score, followed by X6,X5 and X4.
 
-![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/57e38bfb-9bb7-438c-b1fa-0a762ed05963)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/f0be3c30-8dc5-4c82-9ce2-5a064169d61a)
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/8cd47f1e-2afa-4a65-98ca-44ebb80f123a)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/1c427daa-f0f9-4e94-8b6c-ae218563dcc3)
 
-*  The Light GBM model achieved an impressive 74% score, which is higher than the previous two models. It also obtained an F1 score of 70%. The feature importance analysis shows that X1 and X3 are the two most important features, followed by X4.
+*  The Light GBM model achieved an impressive 74% accuracy score, which is higher than the previous two models. It also obtained an F1 score of 70%. The feature importance analysis shows that X1 and X3 are the two most important features, followed by X4.
 
-![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/21d945d2-3e94-4041-ab05-b6eb0a5ee3a9)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/17603c08-de9e-4774-96ce-9f6b588143c4)
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/55881afd-55ae-4d6d-b367-6099d45761bc)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/645c536f-93ab-4be5-bf75-b62c5c0f7e9a)
+
 
 In conclusion, after comparing the importance scores of all the three models, we find that X1, X3, X4 and X6 are the most crucial features. The logistic company can enhance customer satisfaction by giving top priority to these questions namely 'my order was delivered on time', 'I ordered everything I wanted to order', 'I paid a good price for my order' and 'the app makes ordering easy for me', while excluding X2 and X5 questions.
