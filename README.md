@@ -16,13 +16,13 @@ We recently did a survey to a select customer cohort. You are presented with a s
 
 ### **Data Description:**
 
-Y = target attribute (Y) with values indicating 0 (unhappy) and 1 (happy) customers
-X1 = my order was delivered on time
-X2 = contents of my order was as I expected
-X3 = I ordered everything I wanted to order
-X4 = I paid a good price for my order
-X5 = I am satisfied with my courier
-X6 = the app makes ordering easy for me
+1. Y = target attribute (Y) with values indicating 0 (unhappy) and 1 (happy) customers
+2. X1 = my order was delivered on time
+3. X2 = contents of my order was as I expected
+4. X3 = I ordered everything I wanted to order
+5. X4 = I paid a good price for my order
+6. X5 = I am satisfied with my courier
+7. X6 = the app makes ordering easy for me
 
 Attributes X1 to X6 indicate the responses for each question and have values from 1 to 5 where the smaller number indicates less and the higher number indicates more towards the answer.
 
@@ -59,4 +59,4 @@ Attributes X1 to X6 indicate the responses for each question and have values fro
 
 ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/21d945d2-3e94-4041-ab05-b6eb0a5ee3a9)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/17603c08-de9e-4774-96ce-9f6b588143c4)
 
-In conclusion, after comparing the importance scores of all the three models, we find that X1, X3, and X4 are the most crucial features. The logistic company can enhance customer satisfaction by giving top priority to these questions namely 'my order was delivered on time', 'I ordered everything I wanted to order', and 'I paid a good price for my order', while excluding X2 and X5 questions.
+In conclusion, after comparing the importance scores of all the three models, we find that X1, X3, X4 and X6 are the most crucial features. The logistic company can enhance customer satisfaction by giving top priority to these questions namely 'my order was delivered on time', 'I ordered everything I wanted to order', 'I paid a good price for my order' and 'the app makes ordering easy for me', while excluding X2 and X5 questions.
