@@ -47,9 +47,16 @@ Attributes X1 to X6 indicate the responses for each question and have values fro
 
 ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/6f9006f1-e544-4aef-85eb-80fc56892f56)
 
-*  After training the Decision Tree model with optimal hyperparameters on the data, it achieved an accuracy score of 61%. The recall score is 82%, indicating that the model correctly identifies 82% of happy customers but incorrectly labels 18% of them as unhappy. The precision score is 56%, suggesting a relatively high False Positive rate, meaning many unhappy customers are being incorrectly classified as happy. Additionally, through feature importance analysis, it's clear that the X2 feature is the least important.
+*  After training the Decision Tree model with optimal hyperparameters on the data, it achieved an accuracy score of 61%. The recall score is 82%, indicating that the model correctly identifies 82% of happy customers but incorrectly labels 18% of them as unhappy. The precision score is 56%, suggesting a relatively high False Positive rate, meaning many unhappy customers are being incorrectly classified as happy. Additionally, through feature importance analysis, it's clear that the X2 and X5 feature is the least important. Based on the correlation value and feature importance, X2 is removed.
 
 ![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/f0370c8d-4d99-4608-a5ea-bcfc89c95131)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/9057e6a2-fa52-4006-a643-776928decd39)
 
+*  By fine-tuning the hyperparameters of the Random Forest Classifier model, it reached an accuracy of 65% and an F1 score of 64%, which is lower than the Decision Tree model. However, there's a notable difference in the feature importance between the Random Forest and Decision Tree models. It is clear that X3 and X1 have high feature importance score, followed by X6,X5 and X4.
 
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/57e38bfb-9bb7-438c-b1fa-0a762ed05963)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/f0be3c30-8dc5-4c82-9ce2-5a064169d61a)
 
+*  The Light GBM model achieved an impressive 74% score, which is higher than the previous two models. It also obtained an F1 score of 70%. The feature importance analysis shows that X1 and X3 are the two most important features, followed by X4.
+
+![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/21d945d2-3e94-4041-ab05-b6eb0a5ee3a9)![image](https://github.com/skreddypalvai/aKX3V0vGhGihpb1s/assets/137756791/17603c08-de9e-4774-96ce-9f6b588143c4)
+
+In conclusion, after comparing the importance scores of all the three models, we find that X1, X3, and X4 are the most crucial features. The logistic company can enhance customer satisfaction by giving top priority to these questions namely 'my order was delivered on time', 'I ordered everything I wanted to order', and 'I paid a good price for my order', while excluding X2 and X5 questions.
